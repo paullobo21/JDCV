@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV & JD Match</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Resume and Job Description</h1>
+        <form action="/match/" method="post" enctype="multipart/form-data">
+            <label for="resume">Resume (PDF):</label>
+            <input type="file" name="resume" accept=".pdf" required><br><br>
+
+            <label for="jd">Job Description (CSV):</label>
+            <input type="file" name="jd" accept=".csv" required><br><br>
+
+            <button type="submit">Match</button>
+        </form>
+    </div>
+</body>
+</html>

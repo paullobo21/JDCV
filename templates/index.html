@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV & JD Match</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Resume and Job Description</h1>
+        <form action="/match/" method="post" enctype="multipart/form-data">
+            <label for="cv">Resume (PDF):</label>
+            <input type="file" name="cv" id="resume" accept=".pdf" required><br><br>
+
+            <label for="jd">Job Description (CSV):</label>
+            <input type="file" name="jd" id="jd" accept=".csv" required><br><br>
+
+            <button type="submit">Match</button>
+        </form>
+
+        {% if score is defined %}
+            <h2>Match Score: {{ score }}%</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
