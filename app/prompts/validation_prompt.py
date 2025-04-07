@@ -1,5 +1,11 @@
 validation_prompt = """
-Based on the parsed resume and job description, evaluate the candidate's fit for the job.
+Based on the parsed resume and job description below, evaluate the candidate's fit for the job.
+
+Parsed Resume:
+{cv_info}
+
+Parsed Job Description:
+{jd_info}
 
 Include:
 - Skill Match %

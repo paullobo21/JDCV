@@ -8,7 +8,7 @@ def execute_agents(cv_text: str, jd_text: str):
     parsed_cv = run_cv_parser(cv_text)
 
     # Step 2: Parse JD
-    parsed_jd = run_jd_parser(jd_text,cv_text)
+    parsed_jd = run_jd_parser(jd_text, cv_text)
 
     # Step 3: Validate match
     validation_summary = run_validation(parsed_cv, parsed_jd)
