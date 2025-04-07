@@ -36,25 +36,35 @@ Job Description: .csv with multiple entries
 
 **Agents Overview**
 Agent	Purpose
+
 CV Parser Agent	Extracts structured details from resumes
+
 JD Parser Agent	Extracts key requirements from the best-fit JD
+
 Validation Agent	Evaluates skill match %, experience fit, and suitability
+
 Schedule Agent	Suggests interview type, date, and interviewer role
+
 (Coming Soon) Shortlisting Agent	Shortlists top candidates from multiple resumes
 
 ---
 
 **TODO**
  Add shortlisting agent for multiple resumes
+ 
  Integrate SQLite to store parsed results & shortlist metadata
+ 
  Add embedding-based similarity search using Ollama
+ 
  Add API tools & web scraper tools for advanced analysis
 
 ---
 
 **Powered By**
 FastAPI
+
 Ollama (Local LLMs)
+
 Python, Jinja2, SQLite (upcoming)
 
 ---
