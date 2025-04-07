@@ -29,12 +29,15 @@ This project is a FastAPI-based web application that intelligently matches resum
 ---
 
 **File Formats**
+
 Resume: .pdf only
+
 Job Description: .csv with multiple entries
 
 ---
 
 **Agents Overview**
+
 Agent	Purpose
 
 CV Parser Agent	Extracts structured details from resumes
@@ -50,6 +53,7 @@ Schedule Agent	Suggests interview type, date, and interviewer role
 ---
 
 **TODO**
+
  Add shortlisting agent for multiple resumes
  
  Integrate SQLite to store parsed results & shortlist metadata
@@ -61,6 +65,7 @@ Schedule Agent	Suggests interview type, date, and interviewer role
 ---
 
 **Powered By**
+
 FastAPI
 
 Ollama (Local LLMs)
@@ -69,6 +74,7 @@ Python, Jinja2, SQLite (upcoming)
 
 ---
 **Author**
+
 Built with ❤️ by PAUL LOBO for AI-powered hiring automation.
 
 
